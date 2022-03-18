@@ -1,0 +1,80 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 432 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1311862 0 0
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 2049 1 256 0 -1
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 3073 1 10565 0 -1
+ciMethod java/lang/String <init> ([CII)V 4097 1 5871 0 704
+ciMethod java/lang/String <init> ([CZ)V 2545 1 19792 0 0
+ciMethod java/lang/String length ()I 4097 1 652076 0 64
+ciMethod java/lang/String getChars (II[CI)V 4097 1 5641 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 4097 15721 5817 0 -1
+ciMethod java/lang/String startsWith (Ljava/lang/String;I)Z 2433 2297 5434 0 224
+ciMethod java/lang/String startsWith (Ljava/lang/String;)Z 3313 1 105622 0 192
+ciMethod java/lang/String hashCode ()I 2857 32769 1235 0 288
+ciMethod java/lang/String indexOf (I)I 3945 1 101325 0 -1
+ciMethod java/lang/String substring (I)Ljava/lang/String; 2185 1 5486 0 -1
+ciMethod java/lang/String replace (CC)Ljava/lang/String; 1265 63073 1899 0 1088
+ciMethod java/lang/String valueOf (Ljava/lang/Object;)Ljava/lang/String; 641 1 8265 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 385 1 39748 0 96
+ciMethod java/lang/Class getName0 ()Ljava/lang/String; 2057 1 257 0 -1
+ciMethod java/lang/ClassLoader getResourceAsStream (Ljava/lang/String;)Ljava/io/InputStream; 0 0 1 0 -1
+ciMethod java/lang/System currentTimeMillis ()J 3073 1 384 0 -1
+ciMethod java/lang/Throwable <init> ()V 137 1 131 0 -1
+ciMethod java/lang/Throwable getStackTrace ()[Ljava/lang/StackTraceElement; 137 1 120 0 -1
+ciMethod java/lang/RuntimeException <init> (Ljava/lang/String;)V 65 1 20 0 -1
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/Thread getId ()J 3081 1 1097 0 -1
+ciMethod java/util/Map containsKey (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/StringBuffer <init> ()V 705 1 294 0 -1
+ciMethod java/lang/StringBuffer toString ()Ljava/lang/String; 2049 1 5423 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1673 1 108440 0 224
+ciMethod java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 4097 1 135570 0 -1
+ciMethod java/lang/AbstractStringBuilder expandCapacity (I)V 1449 1 9557 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 2905 1 18355 0 928
+ciMethod java/lang/AbstractStringBuilder appendNull ()Ljava/lang/AbstractStringBuilder; 0 0 15 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 1209 1 77983 0 192
+ciMethod java/lang/StringBuilder append (Ljava/lang/Object;)Ljava/lang/StringBuilder; 521 1 763 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 2449 1 204056 0 0
+ciMethod java/lang/StringBuilder append (I)Ljava/lang/StringBuilder; 1 1 1081 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 1345 1 82325 0 832
+ciMethod java/io/InputStream <init> ()V 2049 1 28237 0 0
+ciMethod java/io/InputStream read ()I 0 0 1 0 -1
+ciMethod java/io/InputStream close ()V 0 0 1 0 -1
+ciMethod java/net/URL openStream ()Ljava/io/InputStream; 1505 1 302 0 -1
+ciMethod java/lang/StackTraceElement getClassName ()Ljava/lang/String; 1041 1 130 0 -1
+ciMethod java/lang/StackTraceElement getMethodName ()Ljava/lang/String; 49 1 4 0 -1
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 297 1 2387 0 -1
+ciMethod java/lang/Integer intValue ()I 1033 1 129 0 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 3121 1 106827 0 160
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2065 33 16643 0 480
+ciMethod java/util/HashMap containsKey (Ljava/lang/Object;)Z 2049 1 8865 0 640
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 2057 1 27861 0 1600
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2049 97 6099 0 1440
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 265 1265 1819 0 -1
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 0 0 1 0 -1
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 3225 1 5529 0 224
+ciMethod java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 2089 1 739 0 0
+ciMethod java/util/HashMap afterNodeInsertion (Z)V 3465 1 1542 0 0
+ciMethod java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2193 1 12378 0 0
+ciMethod java/lang/ThreadLocal get ()Ljava/lang/Object; 2257 1 7456 0 -1
+ciMethod java/lang/ThreadLocal set (Ljava/lang/Object;)V 97 1 51 0 -1
+ciMethod java/util/concurrent/atomic/AtomicInteger getAndIncrement ()I 17 1 2 0 -1
+ciMethod java/util/Arrays copyOfRange ([CII)[C 4097 1 5679 0 -1
+ciMethodData java/lang/String length ()I 2 652076 orig 264 8 177 24 118 0 0 0 0 24 60 8 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 97 137 79 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/Object <init> ()V 2 1311862 orig 264 8 177 24 118 0 0 0 0 128 4 8 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 177 19 160 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/io/BufferedInputStream <init> (Ljava/io/InputStream;I)V 2049 1 5187 0 0
+ciMethod java/io/FilterInputStream <init> (Ljava/io/InputStream;)V 2081 1 19088 0 0
+ciMethod java/io/FilterInputStream close ()V 1417 1 177 0 0
+ciMethod java/util/concurrent/atomic/AtomicLong getAndIncrement ()J 289 1 34 0 -1
+ciMethod java/lang/IllegalArgumentException <init> (Ljava/lang/String;)V 0 0 11 0 -1
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode putTreeVal (Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode split (Ljava/util/HashMap;[Ljava/util/HashMap$Node;II)V 0 0 1 0 -1
+ciMethodData java/lang/String hashCode ()I 2 21028 orig 264 8 177 24 118 0 0 0 0 176 79 8 23 0 0 0 0 152 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 113 27 0 0 33 17 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0x171 0x78 0x1fd 0xe0007 0x6 0x58 0x1f7 0x1e0007 0x1f7 0x38 0x4206 0x2d0003 0x4206 0xffffffffffffffe0 oops 0
+ciMethod java/util/zip/ZipFile close ()V 2049 985 932 0 -1
+ciMethodData java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 2 136914 orig 264 8 177 24 118 0 0 0 0 104 58 15 23 0 0 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
